@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+<body>
+
+<form method="post" action="/ArduinoBlink">
+
+    <input type="text" name="data">
+    <br>
+    <input type="submit" value="Gönder">
+
+
+</form>
+
+<br>
+<br>
+
+<form method="post" action="/ArduinoOnOff">
+
+
+
+    <input type="submit" value="Aç" name="On">
+    <br>
+    <br>
+    <input type="submit" value="Kapa" name="Off">
+    <br>
+    <br>
+    <input type="submit" value="Dur" name="Stop">
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
